@@ -6,10 +6,10 @@ $(document).ready(function() {
     const userFood=$("input#food").val();
     const userAnimal=$("input#animal").val();
 
-    
-    
-   
+    let resultArray=[userName, userColor, userFood, userAnimal];
 
-    
+    $("#insert").text(resultArray);
+    $(".show-results").show();
   });
+
 });
